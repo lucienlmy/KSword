@@ -10,8 +10,8 @@
   "duplicates": [
     {
       "duplicates": [
-        "profiles/ark_dyndata/ntoskrnl_amd64_10_0_22621_1483_6b8d28ceed9f2db625be38c2afaee7b51.json",
-        "profiles/ark_dyndata/ntoskrnl_amd64_10_0_22621_1485_6b8d28ceed9f2db625be38c2afaee7b51.json"
+        "E:\\KswordPDB\\PDB\\profiles\\ark_dyndata\\ntoskrnl_amd64_10_0_22621_1483_6b8d28ceed9f2db625be38c2afaee7b51.json",
+        "E:\\KswordPDB\\PDB\\profiles\\ark_dyndata\\ntoskrnl_amd64_10_0_22621_1485_6b8d28ceed9f2db625be38c2afaee7b51.json"
       ],
       "identity": {
         "machine": 34404,
@@ -19,10 +19,10 @@
         "size_of_image": 17068032,
         "time_date_stamp": 2053043576
       },
-      "winner": "profiles/ark_dyndata/ntoskrnl_amd64_10_0_22621_1483_6b8d28ceed9f2db625be38c2afaee7b51.json"
+      "winner": "E:\\KswordPDB\\PDB\\profiles\\ark_dyndata\\ntoskrnl_amd64_10_0_22621_1483_6b8d28ceed9f2db625be38c2afaee7b51.json"
     }
   ],
-  "generatedAt": "2026-06-27T15:52:13Z",
+  "generatedAt": "2026-07-04T16:52:56Z",
   "localKernelIdentity": {
     "machine": 34404,
     "module_class": "ntoskrnl",
@@ -30,17 +30,17 @@
     "time_date_stamp": 476233443
   },
   "localKernelProfileMatch": {
-    "profile": "profiles/ark_dyndata/ntoskrnl_amd64_10_0_19041_6456_f57e740b088e5056e8af0772f1cc5beb1.json",
+    "profile": "E:\\KswordPDB\\PDB\\profiles\\ark_dyndata\\ntoskrnl_amd64_10_0_19041_6456_f57e740b088e5056e8af0772f1cc5beb1.json",
     "profileName": "ntoskrnl_amd64_10.0.19041.6456_f57e740b088e5056e8af0772f1cc5beb1"
   },
   "pack": {
     "callbackItemCount": 0,
-    "fieldDictionaryCount": 46,
+    "fieldDictionaryCount": 127,
     "packVersion": 3,
-    "path": "profiles/ark_dyndata_pack_v3.json",
+    "path": "Ksword5.1\\Ksword5.1\\profiles\\ark_dyndata_pack_v3.json",
     "profileCount": 2065,
     "schemaVersion": 1,
-    "typedItemCount": 31274
+    "typedItemCount": 171060
   },
   "packVersion": 3,
   "profileListOmitted": true,
@@ -48,88 +48,16 @@
   "publishedProfiles": 2065,
   "rejected": [
     {
-      "path": "profiles/ark_dyndata/ntoskrnl_amd64_10_0_19041_2545_3bc3c474e5c073d3fdb71d47289f59991.json",
+      "path": "E:\\KswordPDB\\PDB\\profiles\\ark_dyndata\\ntoskrnl_amd64_10_0_19041_2545_3bc3c474e5c073d3fdb71d47289f59991.json",
       "reason": "fields_and_typed_items_empty"
     },
     {
-      "path": "profiles/ark_dyndata/ntoskrnl_amd64_10_0_22621_3_b44fe411d9d0b669d036b61c9e44a9d51.json",
+      "path": "E:\\KswordPDB\\PDB\\profiles\\ark_dyndata\\ntoskrnl_amd64_10_0_22621_3_b44fe411d9d0b669d036b61c9e44a9d51.json",
       "reason": "fields_and_typed_items_empty"
     }
   ],
   "rejectedProfiles": 2,
   "removedScatteredProfiles": 0,
   "schemaVersion": 1,
-  "typedItemCount": 434,
-  "deepOffsetLibraries": [
-    {
-      "kind": "KswordNtosDeepOffsetLibrary",
-      "schemaVersion": 1,
-      "path": "profiles/pdb_deep_offsets/ntkrnlmp_f923da2d238e7c7ce180b962b19a3781_age5_deep_offsets.json",
-      "pdbName": "ntkrnlmp.pdb",
-      "pdbGuid": "F923DA2D-238E-7C7C-E180-B962B19A3781",
-      "pdbAge": 1,
-      "targetTypeCount": 85,
-      "fieldCount": 2682,
-      "kswordAliasFieldCount": 47,
-      "generator": "tools/pdb_offset_generator/ksword_ntos_pdb_deep_offsets.py",
-      "pdbSummaryAge": 5,
-      "symbolCacheAge": 1,
-      "identitySource": "symbol_cache_path"
-    },
-    {
-      "kind": "KswordWin32kDeepOffsetLibrary",
-      "schemaVersion": 1,
-      "path": "profiles/pdb_deep_offsets/win32k_gui_public_7bd3_000a_001c_deep_offsets.json",
-      "moduleCount": 3,
-      "fieldCount": 283,
-      "kswordAliasFieldCount": 0,
-      "publicSymbolCount": 14601,
-      "privateTypeReady": false,
-      "generator": "tools/pdb_offset_generator/ksword_win32k_pdb_deep_offsets.py",
-      "modules": [
-        {
-          "pdbName": "win32k.pdb",
-          "pdbGuid": "7BD3B4D1-7A3C-3555-1C49-72B31B815536",
-          "pdbAge": 1,
-          "pdbSummaryAge": 3,
-          "symbolCacheAge": 1,
-          "fieldCount": 283,
-          "publicSymbolCount": 5049,
-          "privateTypeReady": false
-        },
-        {
-          "pdbName": "win32kbase.pdb",
-          "pdbGuid": "000A7125-DE3F-CE6C-0A39-13A002C1163D",
-          "pdbAge": 1,
-          "pdbSummaryAge": 3,
-          "symbolCacheAge": 1,
-          "fieldCount": 0,
-          "publicSymbolCount": 5601,
-          "privateTypeReady": false
-        },
-        {
-          "pdbName": "win32kfull.pdb",
-          "pdbGuid": "001C937F-0611-4FE6-8C90-F7D9CDEB8306",
-          "pdbAge": 1,
-          "pdbSummaryAge": 2,
-          "symbolCacheAge": 1,
-          "fieldCount": 0,
-          "publicSymbolCount": 3951,
-          "privateTypeReady": false
-        }
-      ],
-      "missingPrivateTypes": [
-        "tagWND",
-        "tagTHREADINFO",
-        "tagQ",
-        "tagHOOK",
-        "tagHOTKEY",
-        "tagDESKTOP",
-        "tagWINDOWSTATION"
-      ],
-      "identitySource": "symbol_cache_path",
-      "runtimeReadiness": "public_symbols_only; private GUI object layouts are not available from this PDB cache"
-    }
-  ],
-  "sourcePathPolicy": "Manifest paths are generation provenance only. Runtime loading uses profiles/ark_dyndata_pack_v3.json beside the executable; no external PDB cache is required."
+  "typedItemCount": 434
 }
